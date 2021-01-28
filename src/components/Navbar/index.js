@@ -7,22 +7,22 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav>
                 <NavContainer>
-                    <NavLogo to='/'>reals</NavLogo>
+                    <NavLogo to="/">reals</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='sobre'>Sobre</NavLinks>
+                            <NavLinks to="/sobre">Sobre</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='descubra'>Descubra</NavLinks>
+                            <NavLinks to="/descubra">Descubra</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='servicos'>Serviços</NavLinks>
+                            <NavLinks to="/servicos">Serviços</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='signup'>Cadastre-se</NavLinks>
+                            <NavLinks to="/signup">Cadastre-se</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
