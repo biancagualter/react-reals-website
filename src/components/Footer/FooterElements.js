@@ -91,10 +91,19 @@ export const SocialLogo = styled(Link) `
     padding: 0 120px 0 20px;
     font-weight: bold;
     cursor: pointer;
+
+    @media screen and (max-width: 820px){
+        margin-left: 100px
+    }
 `
 
 export const WebsiteRights = styled.small `
     color: #fff;
+
+    @media screen and (max-width: 820px){
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
 `
 
 export const SocialIcons = styled.div `
@@ -103,6 +112,10 @@ export const SocialIcons = styled.div `
     align-items: center;
     width: 248px;
     padding-left: 50px;
+
+    @media screen and (max-width: 820px){
+        margin-right: 50px;
+    }
 `
 
 export const SocialIconLink = styled.a ` 
