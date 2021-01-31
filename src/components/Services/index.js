@@ -16,7 +16,7 @@ const Services = () => {
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />
-                    <ServicesH2>Escritórios Virtuais</ServicesH2>
+                    <ServicesH2>Atendimento 24h</ServicesH2>
                     <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mollis turpis id egestas laoreet</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
